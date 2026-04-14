@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  cross-cache:
+    build: .
+    ports:
+      - "1300:5000"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2000M
+    read_only: true
+    cap_drop:
+      - all
+    privileged: true
+    
