@@ -1,0 +1,20 @@
+1- What is the MD5 hash of the memory dump?
+e8171d8b921e4cfb958ae0b10087a356
+2- What is the OS profile used for forensic analysis?
+WinXPSP2x86
+3- What is the hostname of the machine ?
+ragdollf-f9ac5a
+4- Which is the pid of explorer.exe ?
+1712
+5- Left Something on my clipboard...What is it ?
+cl1pb04rd_l3ak5
+6- What is the ip of the machine ?
+192.168.1.15
+7- What is the content of my secret file in my desktop ?
+Cybersphere{h3re_1s_my_s3cr3t}
+8- Checkout my Desktop again . What is the MD5 hash of the malware file ?
+0ebb32b6554afbb3960ab882dd044b48
+9- What was the dummy flag ?
+Cybersphere{th1s_1s_4_f4k3_fl4g}
+10- Ip and port of the C2 server ? format IP:PORT 
+203.0.113.45:54368

@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  challenge:
+    build: .
+    container_name: vola_challenge
+    ports:
+      - "1020:1020"
+    restart: unless-stopped
