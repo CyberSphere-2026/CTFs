@@ -1,0 +1,9 @@
+services:
+  bad_dna_app:
+    build: .
+    container_name: bad_dna
+    ports:
+      - "5151:5151"
+    read_only: true
+    restart: unless-stopped
+

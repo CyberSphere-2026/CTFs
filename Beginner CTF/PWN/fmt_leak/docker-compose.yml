@@ -1,0 +1,11 @@
+version: "3"
+services:
+  int_ovf_app:
+    build: .
+    container_name: int_ovf
+    user: ctf
+    working_dir: /home/ctf
+    entrypoint: /bin/sh -c "./ynetd -p 5151 /home/ctf/launch.sh"
+    ports:
+      - "5151:5151"
+    read_only: true

@@ -1,0 +1,1 @@
+gcc main.c -o bad_dna -fPIE -pie -Wl,-z,relro,-z,now -fno-stack-protector -O0
