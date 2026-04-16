@@ -1,7 +1,7 @@
 # ShadowDesk — Author Writeup
 **Category:** Web / Crypto  
 **Difficulty:** Medium  
-**Flag:** `Securinets{sh4d0w_s0ck3t_jwt_4nd_1nt3l_4p1_pwn3d}`
+**Flag:** `Cybersphere{sh4d0w_s0ck3t_jwt_4nd_1nt3l_4p1_pwn3d}`
 
 ---
 
