@@ -1,0 +1,11 @@
+version: "3"
+services:
+  gate_app:
+    build: .
+    container_name: gate
+    user: ctf
+    working_dir: /home/ctf
+    entrypoint: /bin/sh -c "./ynetd -p 5152 /home/ctf/launch.sh"
+    ports:
+      - "5152:5152"
+    read_only: true

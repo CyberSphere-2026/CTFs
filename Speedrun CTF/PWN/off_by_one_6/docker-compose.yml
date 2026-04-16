@@ -1,0 +1,11 @@
+version: "3"
+services:
+  locked_app:
+    build: .
+    container_name: locked
+    user: ctf
+    working_dir: /home/ctf
+    entrypoint: /bin/sh -c "./ynetd -p 5154 /home/ctf/launch.sh"
+    ports:
+      - "5154:5154"
+    read_only: true
