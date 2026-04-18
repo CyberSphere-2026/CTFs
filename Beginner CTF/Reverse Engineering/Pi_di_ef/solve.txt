@@ -1,0 +1,2 @@
+qpdf --qdf hard_crackme.pdf unpacked.pdf && strings unpacked.pdf
+> extract java script , make python script solver
