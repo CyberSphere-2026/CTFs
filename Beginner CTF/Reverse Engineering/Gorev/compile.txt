@@ -1,1 +1,0 @@
-GOTOOLCHAIN=go1.25.0 garble build -ldflags="-s -w -buildid=" -buildmode=pie -o latest chal2.go
