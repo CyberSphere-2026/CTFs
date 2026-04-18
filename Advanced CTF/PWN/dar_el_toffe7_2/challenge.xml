@@ -1,0 +1,25 @@
+<challenge>
+  <settings>
+    <name>dar_el_toffa7</name>
+    <author>X-0R</author>
+    <category>pwn</category>
+    <description></description>
+    <docker-image>ubuntu:24.04</docker-image>
+  </settings>
+  <files>
+    <file name="main">
+      <attachment>true</attachment>
+      <hosting>true</hosting>
+    </file>
+    <file name="flag">
+      <attachment>false</attachment>
+      <hosting>true</hosting>
+    </file>
+    <file name="Dockerfile">
+      <attachment>true</attachment>
+    </file>
+  </files>
+  <setup>
+    <command>make</command>
+  </setup>
+</challenge>
