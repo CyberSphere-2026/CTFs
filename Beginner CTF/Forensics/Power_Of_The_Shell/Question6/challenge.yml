@@ -1,0 +1,26 @@
+name: The Shell Power Part 6
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 50
+extra:
+  initial: 50
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  When did the Discord installer start?
+
+  Timestamp format (UTC): `YYYY-MM-DD HH:MM:SS`
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{2026-04-15 11:57:26}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 5

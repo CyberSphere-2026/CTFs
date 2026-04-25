@@ -1,0 +1,28 @@
+name: The Shell Power Part 5
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 50
+extra:
+  initial: 50
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  How long did the Discord installer download take?
+
+  Answer in seconds only.
+
+  Example : CyberSphere{8888}
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{415}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 4

@@ -1,0 +1,27 @@
+name: The Shell Power Part 14
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 25
+extra:
+  initial: 25
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  The attacker trolled the victim by leaving a note.
+  What is the content of this note?
+
+  The note is saved as `pwned.txt` on `C:\Users\someone\Desktop\`.
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{RIGGED KEKW}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 13

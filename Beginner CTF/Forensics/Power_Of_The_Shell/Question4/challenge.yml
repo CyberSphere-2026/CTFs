@@ -1,0 +1,26 @@
+name: The Shell Power Part 4
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 50
+extra:
+  initial: 50
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What version of WinRAR is installed?
+
+  Format example: `CyberSphere{1.9}`
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{7.20}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 3

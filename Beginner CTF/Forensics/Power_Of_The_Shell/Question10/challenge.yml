@@ -1,0 +1,24 @@
+name: The Shell Power Part 10
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 100
+extra:
+  initial: 100
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What is the SHA-256 hash of the reverse shell payload?
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{2dc08a81a579ddb1035e16378fc21e57f5df0590b1c88a2213e7d91fa7bb01d7}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 9

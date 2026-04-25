@@ -1,0 +1,24 @@
+name: The Shell Power Part 3
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 25
+extra:
+  initial: 25
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What is the victim's username?
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{someone}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 2

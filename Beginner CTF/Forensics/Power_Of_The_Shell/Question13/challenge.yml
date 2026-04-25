@@ -1,0 +1,24 @@
+name: The Shell Power Part 13
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 25
+extra:
+  initial: 25
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What is the final payload URL used for persistence?
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{http://52.16.191.79:6969/HealthCheck.ps1}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 12

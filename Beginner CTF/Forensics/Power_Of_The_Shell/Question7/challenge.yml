@@ -1,0 +1,24 @@
+name: The Shell Power Part 7
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 50
+extra:
+  initial: 50
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What is the last URL visited before infection?
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{https://recaptcha-verification-step.netlify.app/}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 6

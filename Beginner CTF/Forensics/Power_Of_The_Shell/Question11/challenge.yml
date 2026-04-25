@@ -1,0 +1,26 @@
+name: The Shell Power Part 11
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 25
+extra:
+  initial: 25
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What IP and port did the reverse shell connect to?
+
+  Format: `IP:PORT`
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{52.16.191.79:7039}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 10

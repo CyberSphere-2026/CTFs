@@ -1,0 +1,36 @@
+name: The Shell Power
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 25
+extra:
+  initial: 25
+  decay: 1
+  minimum: 0
+state: visible
+
+description: |
+  This is the introduction part of **The Shell Power** forensic series.
+
+  A Windows system was infected after a malicious Discord-delivered link.
+  Follow the next parts to reconstruct the attack chain and persistence.
+
+  Timestamp format for later parts: `YYYY-MM-DD HH:MM:SS` (UTC).
+
+  All answers are in this format : CyberSphere{.*} 
+
+  Starter Flag: `CyberSphere{The_Shell_Power_Begins}`
+
+  [Evidence](https://drive.google.com/file/d/1m4EFtTEKMKxd2DMUJLoo1DBVR4VQ3FlH/view?usp=sharing)
+  
+  Archive's Pwd : `CSphere2026`
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{The_Shell_Power_Begins}"
+    data: case_insensitive
+
+requirements:
+  - Welcome

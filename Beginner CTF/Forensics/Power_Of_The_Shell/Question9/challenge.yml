@@ -1,0 +1,24 @@
+name: The Shell Power Part 9
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 100
+extra:
+  initial: 100
+  decay: 10
+  minimum: 20
+state: visible
+
+description: |
+  What is the URL of the script executed via Run dialog?
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{https://recaptcha-verification-step.netlify.app/Verify.ps1}"
+    data: case_insensitive
+
+requirements:
+  - The Shell Power Part 8
