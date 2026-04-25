@@ -1,0 +1,26 @@
+name: Pysomware
+author: sn0_0wyy
+category: Forensics
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 20
+  minimum: 100
+state: visible
+
+description: |
+  Our friend `z3d_r34p3r` got his files encrypted after trusting a "Windows Activator" from Discord. He's tried multiple decryption tools with no luck. He says if you can decrypt his files, you'll find what you're looking for.
+
+  [Evidence](https://drive.google.com/file/d/1r0TvGn3nQuWisGf5g-xIZZrJnQp4hhoz/view?usp=sharing)
+
+  Flag Format: `CyberSphere{FLAG}`
+
+  ---
+  **Author** : sn0_0wyy
+
+flags:
+  - type: static
+    content: "CyberSphere{C3rt1fied_Pyth0n_Mal_An4lyst}"
+    data: case_insensitive
+
